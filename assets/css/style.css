@@ -22,7 +22,7 @@ body {
     text-align: center;
     padding-top: 300px;
     padding-bottom: 50px;
-    background-color: #656565;
+    background-color: #24252A;
     height: 700px;
 }
 
@@ -45,7 +45,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 #content {
-    background-color: #f0ac63;
+    background-color: #0088a9;
     color: #000;
     padding: 50px;
 }
@@ -87,10 +87,10 @@ color: white;
     /* background-color: #101419; */
     height: 100px;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
     /* padding-top: 20px; */
-    background: rgb(240,172,99);
-    background: radial-gradient(circle, rgba(240,172,99,1) 0%, #808782 100%);
+    background: rgb(36,37,42);
+    background: radial-gradient(circle, rgba(36,37,42,1) 37%, rgba(128,135,130,1) 100%);
 }
 #footer ul {
     display: block;
@@ -111,6 +111,7 @@ color: white;
     width: 33px;
     height: 25px;
 }
+/* scaling */
 section {
     position: relative;
     width: 140px;
@@ -324,4 +325,55 @@ section {
     align-items: center;
     /* background-color: #d55084; */
   }
-  
+  /* Social media icons */
+  .social-menu ul {
+    position: absolute;
+    top: 1300px;
+    left: 50%;
+    padding:0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+  .social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+  }
+  .social-menu ul li .fa {
+    font-size: 30px;
+    line-height: 45px;
+    transition: .4s;
+    color: #000;
+  }
+  .social-menu ul li .fa:hover {
+    color: rgb(255, 255, 255);
+  }
+  .social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .4s;
+    box-shadow:0 5px 4px rgba(0,0,0,.5) ;
+  }
+  .social-menu ul li a:hover{
+    transform: translate(0, -10px);
+  }
+  .social-menu ul li:nth-child(1) a:hover {
+    background-color: #1877f2;
+  }
+  .social-menu ul li:nth-child(2) a:hover {
+    background-color: #c32aa3;
+  }
+  .social-menu ul li:nth-child(3) a:hover {
+    background-color: #ff0000;
+  }
+  /* css styling */
+  .copy {
+    position: sticky;
+    left: 605px;
+    bottom: -245px;
+  }
