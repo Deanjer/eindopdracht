@@ -20,10 +20,10 @@ body {
 
 #header {
     text-align: center;
-    padding-top: 398px;
+    padding-top: 615px;
     padding-bottom: 50px;
     background-color: #24252A;
-    height: 740px;
+    height: 940px;
 }
 
 #header img {
@@ -75,7 +75,7 @@ color: white;
 }
 #experimental {
     background-color: #808782;
-    height: 500px;
+    height: 900px;
     padding: 50px;
 }
 #experimental h2 {
@@ -112,7 +112,7 @@ color: white;
     height: 25px;
 }
 /* scaling */
-section {
+section { 
     position: relative;
     width: 140px;
     height: 250px;
@@ -175,7 +175,7 @@ section {
             animation: button forwards 4s infinite;
   }
   
-  @-webkit-keyframes window {
+  @keyframes animatie1 {
     0%, 15%, 90% {
       width: 140px;
       height: 250px;
@@ -190,21 +190,7 @@ section {
     }
   }
   
-  @keyframes window {
-    0%, 15%, 90% {
-      width: 140px;
-      height: 250px;
-    }
-    30%, 45% {
-      width: 400px;
-      height: 300px;
-    }
-    60%, 75% {
-      width: 560px;
-      height: 370px;
-    }
-  }
-  @-webkit-keyframes header {
+  @keyframes animatie1 {
     0%, 15%, 90% {
       width: 100%;
       height: 30px;
@@ -219,22 +205,9 @@ section {
       border-top-width: 14px;
     }
   }
-  @keyframes header {
-    0%, 15%, 90% {
-      width: 100%;
-      height: 30px;
-      border-top-width: 7px;
-    }
-    30%, 45% {
-      height: 90px;
-      border-top-width: 12px;
-    }
-    60%, 75% {
-      height: 105px;
-      border-top-width: 14px;
-    }
-  }
-  @-webkit-keyframes article {
+
+  
+  @keyframes animatie1 {
     0%, 15%, 90% {
       top: #4c54a4;
       width: 140px;
@@ -251,44 +224,8 @@ section {
       height: 225px;
     }
   }
-  @keyframes article {
-    0%, 15%, 90% {
-      top: #4c54a4;
-      width: 140px;
-      height: 220px;
-    }
-    30%, 45% {
-      top: 35px;
-      width: 270px;
-      height: 220px;
-    }
-    60%, 75% {
-      top: 35px;
-      width: 290px;
-      height: 225px;
-    }
-  }
-  @-webkit-keyframes button {
-    0%, 15%, 90% {
-      right: 10px;
-      top: 220px;
-      width: 20px;
-      height: 20px;
-    }
-    30%, 45% {
-      right: 20px;
-      top: 77px;
-      width: 26px;
-      height: 26px;
-    }
-    60%, 75% {
-      right: 25px;
-      top: 92px;
-      width: 26px;
-      height: 26px;
-    }
-  }
-  @keyframes button {
+
+  @keyframes animatie1 {
     0%, 15%, 90% {
       right: 10px;
       top: 220px;
@@ -328,7 +265,7 @@ section {
   /* Social media icons */
   .social-menu ul {
     position: absolute;
-    top: 1320px;
+    top: 1660px;
     left: 50%;
     padding:0;
     margin: 0;
@@ -377,3 +314,146 @@ section {
     left: 605px;
     bottom: -245px;
   }
+  .kaarten{
+    display: inline-block;
+  }
+  .kaart1 {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:0 5px 4px rgba(0,0,0,.5) ;
+    position: relative;
+    top: 140px;
+    transition: .3s;
+    right: 30px;
+    
+  }
+  .kaart1:hover {
+    transform: translate(0, -10px);
+  }
+  .kaart1 h3 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 25px;
+  }
+  .kaart1 p {
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+    font-size: 15px;
+  }
+  .button1{
+    width: 105px;
+    height: 35px;
+    background-color: #0088a9;
+    border-radius: 15px;
+    right: 100px;
+    top:350px;
+    cursor: pointer;   
+  }
+.button1:hover{
+    background-color: #026882;
+    transform: translate(0, -2px);
+}
+  /* kaart2 */
+  .kaart2 {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:0 5px 4px rgba(0,0,0,.5) ;
+    position: relative;
+    top: 140px;
+    transition: .3s;
+    left: -18px;
+    
+  }
+  .kaart2:hover {
+    transform: translate(0, -10px);
+  }
+  .kaart2 h3 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 25px;
+  }
+  .kaart2 p {
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+    font-size: 15px;
+  }
+  .button2{
+    width: 105px;
+    height: 35px;
+    background-color: #0088a9;
+    border-radius: 15px;
+    right: 100px;
+    top:350px;
+    cursor: pointer;   
+  }
+.button2:hover{
+    background-color: #026882;
+    transform: translate(0, -2px);
+}
+  /* kaart3 */
+.kaart3 {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow:0 5px 4px rgba(0,0,0,.5) ;
+  position: relative;
+  top: -310px;
+  transition: .3s;
+  left: 600px;
+  
+}
+.kaart3:hover {
+  transform: translate(0, -10px);
+}
+.kaart3 h3 {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  font-size: 25px;
+}
+.kaart3 p {
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+  font-size: 15px;
+}
+p{
+    padding-left:10px;
+}
+.button3{
+    width: 105px;
+    height: 35px;
+    background-color: #0088a9;
+    border-radius: 15px;
+    right: 100px;
+    top:350px;
+    cursor: pointer;   
+  }
+.button3:hover{
+    background-color: #026882;
+    transform: translate(0, -2px);
+}
+.button4{
+    width: 105px;
+    height: 35px;
+    background-color: #0088a9;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left:80px;
+    cursor: pointer;
+}
+.button4:hover{
+    background-color: #026882;
+    transform: translate(0, -2px);
+}
+#myDiv{
+    color:#ffffff;
+    position: relative;
+    top: -170px;
+    left: 380px;
+    text-shadow: 2px 2px #000000;
+}
